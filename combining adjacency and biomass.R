@@ -159,3 +159,7 @@ model <- glm(link ~rel.ab,family=binomial(link='logit'),data=test)
 #why is this not woring?
 test4 %>% ldply
 
+
+
+#one more test here
+print("testing testing testing")
