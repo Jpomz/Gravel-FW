@@ -1,0 +1,18 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+Biomass Taieri food webs
+Brose example.R
+Figure_2.tiff
+NZFFD species codes.xlsx
+Taieri 10 webs biomass.rds
+Taieri NZ Fish datbase.csv
+Taieri food web pred prey bodymass.rds
+Taieri pred prey bodymass test fish.rds
+add these to translation file.csv
+adjacency matrix with only pred-prey interactions.rds
+*.csv
+*.rds
+data.rdata
+650228.zip
