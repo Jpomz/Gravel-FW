@@ -152,3 +152,10 @@ for (i in 1:length(test4)){
 }
 
 model <- glm(link ~rel.ab,family=binomial(link='logit'),data=test)
+
+
+
+#test making committs in github
+#why is this not woring?
+test4 %>% ldply
+
