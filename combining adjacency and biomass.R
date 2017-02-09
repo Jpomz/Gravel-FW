@@ -151,7 +151,14 @@ for (i in 1:length(test4)){
   plot(link~rel.ab, data = test4[[i]])
 }
 
-model <- glm(link ~rel.ab,family=binomial(link='logit'),data=test)
+model <- test4 %>% llply(function (x){
+  glm(link ~rel.ab,family=binomial(link='logit'),data=x)
+}
+)
+#food webs not significant
+#3, 4, 10
+#Canton, Dempster Summer, Sutton Summer
+
 
 
 
