@@ -1,8 +1,15 @@
 notes on pushing to git hub
 
 
-make changes to script in Rstudio
-open shell in Rstudio
-add script in shell
-commit script in shell
-push script in shell
+1) make changes to script in Rstudio
+2) open shell in Rstudio
+3) add script in shell
+4) commit script in shell
+5) push script in shell
+
+3) git add <script name>
+4) git commit <script name>
+4b) message window will open, add message with descriptive title, and adequate description of changes made below that. Should be understandable to random person walking down the street (within reason)
+5) git push
+Exit git shell
+
